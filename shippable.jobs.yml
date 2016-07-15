@@ -11,3 +11,5 @@ jobs:
     steps:
       - GET: dv-man
       - GET: env-test
+    on_failure:
+      - uname -a
