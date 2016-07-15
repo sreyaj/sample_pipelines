@@ -13,3 +13,4 @@ jobs:
       - GET: env-test
     on_failure:
       - uname -a
+      - sgkjndfgd
